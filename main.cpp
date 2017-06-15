@@ -24,9 +24,9 @@ int main(int argc, char* argv[]) {
     network.addLayer(output_layer);
 
     network.train(createInputSamples(), createOutputSamples());
-    // network.printNetworkInfo();
-    // network.generateArduinoCode();
-    // testNetwork(network);
+    network.printNetworkInfo();
+    network.generateArduinoCode();
+    testNetwork(network);
 }
 
 vector<vector<double>> createInputSamples() {
