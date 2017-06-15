@@ -2,4 +2,4 @@ This project is a Neural Network library created as a counterpart to
 the ArduinoNeuralNet. This library is used to create programs that are 
 used to create and train Neural Networks for use on the Arduino 
 platform. Although it could be used in any program that make use of 
-C++.
+C++. It was also used as a project to learn how to use the git VCS
