@@ -1,0 +1,5 @@
+CONTRIBUTERS
+------------
+
+DarkWasp
+CoderWasp
