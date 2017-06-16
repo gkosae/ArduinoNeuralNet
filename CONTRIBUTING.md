@@ -2,3 +2,4 @@ CONTRIBUTERS
 ------------
 
 DarkWasp
+CoderWasp
