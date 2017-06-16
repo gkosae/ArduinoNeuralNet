@@ -1,0 +1,7 @@
+*.o
+*.gch
+.clang_complete
+*.exe
+training_data/*.o
+training_data/*.gch
+training_data/*.exe
