@@ -5,3 +5,5 @@
 training_data/*.o
 training_data/*.gch
 training_data/*.exe
+*.code
+*.info
