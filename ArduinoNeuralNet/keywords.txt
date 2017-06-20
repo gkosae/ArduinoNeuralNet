@@ -1,0 +1,31 @@
+###################################################################
+# Syntax coloring map for ArduinoNeuralNet Library in Arduino IDE #
+###################################################################
+
+# Classes #
+###########
+Neuron	KEYWORD1
+Layer	KEYWORD1
+NeuralNet	KEYWORD1
+
+
+# Methods for NeuralNet class #
+###############################
+addLayer	KEYWORD2
+forward	KEYWORD2
+feed	KEYWORD2
+getOutputs	KEYWORD2
+
+
+# Methods for Layer class #
+###########################
+feed	KEYWORD2
+forward	KEYWORD2
+getOutputs	KEYWORD2
+size	KEYWORD2
+
+
+# Methods for Neuron class #
+############################
+activate	KEYWORD2
+getNumberOfWeights	KEYWORD2
