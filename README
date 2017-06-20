@@ -1,6 +1,20 @@
-This project is a Neural Network library created as a counterpart to 
-the ArduinoNeuralNet. This library is used to create programs that are 
-used to create and train Neural Networks for use on the Arduino 
-platform. Although it could be used in any program that make use of 
-C++. It was also used as a project to learn how to use the git VCS. 
-Suprisingly, git is really awesome!
+This is just a little something I created for my undergraduate 
+final year project. Its a neural network library used for supervised 
+learning. It uses backpropagation with gradient descent for learning 
+and handles overfitting to some degree with L2 regularization.
+
+This project is made up of two parts;
+ArduinoNeuralNet (A minimized neural network library) - To be used on the arduino platform.  For installation instructions please harness the power of google.
+
+The rest - Which is the work horse of the whole darn thing. With this, 
+you can create and train a multilayered feed-forward neural network. 
+For my convenience (sorry), it is able to generate arduino code 
+containing the structure and content (weights and biases) of the 
+network after training for embedding. Its been tried and tested on 
+Linux (Ubuntu).
+
+ArduinoNeuralNet depends on the awesome library, StandardCplusplus, by 
+maniacbug. Install it alongside. 
+
+There is only one example at the moment, i.e. in main.cpp. But I'll 
+add more really soon.
