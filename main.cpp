@@ -31,13 +31,9 @@ int main(int argc, char* argv[]) {
 
 vector<vector<double>> createInputSamples() {
 
-  cout << "Entering createInputSamples" << endl;
-
   vector<vector<double>> samples{};
   vector<double> buffer{};
   double temp = 0;
-
-  string input_data_file = "training_data/processed_inputs.dat";
 
   ifstream ifs{input_data_file};
 
@@ -54,20 +50,16 @@ vector<vector<double>> createInputSamples() {
  }
 
   number_of_samples = samples.size();
-  cout << "Leaving createInputSamples" << endl;
   return samples;
 }
 
 vector<vector<double>> createOutputSamples() {
 
-  cout << "Entering createOutputSamples" << endl;
   vector<vector<double>> samples{};
 
   for(auto i = 0; i < number_of_samples; ++i) {
     samples.push_back(vector<double>{18.00/NORMALIZER, 50.00/NORMALIZER});
   }
-
-  cout << "Leaving createOutputSamples" << endl;
 
   return samples;
 }
