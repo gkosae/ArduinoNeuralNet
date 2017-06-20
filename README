@@ -18,3 +18,5 @@ maniacbug. Install it alongside.
 
 There is only one example at the moment, i.e. in main.cpp. But I'll 
 add more really soon.
+
+To test it out run 'make CXX=g++' and 'make run' in terminal.
